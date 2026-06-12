@@ -1,23 +1,45 @@
 # Predictive Sales Forecast
 
-## Objective
-Predict future sales using historical sales data.
+## Overview
+This project predicts future sales using historical sales data and Machine Learning (Linear Regression).
+
+## Features
+- Sales Data Analysis
+- Sales Trend Visualization
+- Future Sales Forecasting
+- Performance Evaluation using R² Score
 
 ## Technologies Used
 - Python
 - Pandas
 - Matplotlib
 - Scikit-Learn
-- Git
+- Jupyter Notebook
 - GitHub
 
-## Features
-- Data Analysis
-- Sales Trend Visualization
-- Linear Regression Forecasting
-- Future Sales Prediction
+## Project Structure
+
+Predictive-Sales-Forecast/
+├── data/
+│   ├── sales.csv
+│   └── future_predictions.csv
+├── images/
+│   ├── sales_trend.png
+│   └── future_forecast.png
+├── notebooks/
+│   └── analysis.ipynb
+├── PROJECT_REPORT.md
+└── README.md
 
 ## Results
-Model predicts future sales and achieved a strong R² score.
 
-## Screenshots
+### Sales Trend
+![Sales Trend](images/sales_trend.png)
+
+### Future Forecast
+![Forecast](images/future_forecast.png)
+
+## Future Enhancements
+- Streamlit Web Application
+- Advanced Forecasting Models
+- Interactive Dashboard
